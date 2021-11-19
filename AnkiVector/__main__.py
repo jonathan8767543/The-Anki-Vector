@@ -63,16 +63,16 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*Hellow There, I'm Ziyana Bot 🍑
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+I'm a Powerfull group manager bot With Cool Modules. Made My @impossiblefriendsgroup
 hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/impossiblefriendschannel"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/impossiblefriendsgroup"),
     ],
     [
         InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Ziyana Bot To Youre Group ➕", url="t.me/TheZiyanabot?startgroup=true"
         ),
     ],
 ]
@@ -122,7 +122,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AnkiVector.modules." + module_name)
+    imported_module = importlib.import_module("Ziyana.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -366,8 +366,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Ziyana Support.* "
+            f"\n\n Join [ZiyanaSupport](https://t.me/impossiblefriendsgroup) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -400,7 +400,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/impossiblefriendsgroup).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -419,8 +419,8 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
+            f"\n\nBased on [Ziyana Asisstant](https://t.me/ZIYANA_ASSISTANT)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was clone by Dark Skull"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
