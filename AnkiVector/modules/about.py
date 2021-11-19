@@ -1,5 +1,5 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+** Ziyana - A Powerful Telegram Group Manager 🎶 **
 
 Powerful Abilities
 
@@ -7,8 +7,8 @@ Powerful Abilities
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
 
-Developers [TeamAnkiVector🇱🇰](https://t.me/TeamAnkiVector)
+Developers [ZiyanaSupport](https://t.me/impossiblefriendsgroup)
 
-**~ @TheAnkiVectorBot**
+**~ @ZIYANA_MUSIC_BOT**
 """
 __mod_name__ = "About"
