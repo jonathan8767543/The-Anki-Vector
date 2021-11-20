@@ -181,7 +181,7 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("ankivector", API_ID, API_HASH)
+telethn = TelegramClient("Darkskull", API_ID, API_HASH)
 pbot = Client("ankivectorPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 tbot = telethn
