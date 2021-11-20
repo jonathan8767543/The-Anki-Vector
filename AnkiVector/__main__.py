@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Ziyana Bot 🍑
+*Hellow There, I'm Dark Skull 🍑
 
 I'm a Powerfull group manager bot With Cool Modules. Made My @impossiblefriendsgroup
 hit /help to Find my list of available commands 🕹*
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Ziyana Bot To Youre Group ➕", url="t.me/TheZiyanabot?startgroup=true"
+            text="➕ Add Ziyana Bot To Youre Group ➕", url="t.me/ThE_DaRkSkUlLBoT?startgroup=true"
         ),
     ],
 ]
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Damantha Jasinghe](t.me/DA_RK_SKULL)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
