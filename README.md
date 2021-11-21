@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/damantha126/the-anki-vector?color=red&label=Last%20commit&logo=damantha&logoColor=green)
 <p align="center">
-  <img src="https://telegra.ph/file/17e7c135c81197457ac84.jpg" width='600"'>
+  <img src="https://telegra.ph/file/2e318d2e6a9262393bef6.jpg" width='600"'>
 </p>
 
 # 2 Branches available. this is main brach. swith advaced fr all fetures
@@ -54,7 +54,7 @@ The Anki Vector bot(advanced)
 
 ## Devs
 
-- [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
+- [Dark Skull](https://github.com/DarkSkull93/DarkSkull93) - Owner | Dev
 - [Sadew Jayasekara](https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
