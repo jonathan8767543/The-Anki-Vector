@@ -7,7 +7,7 @@
          "anime",
          "group",
          "manager",
-         "Ankivector"
+         "Dark Skull"
       ],   
    "repository": "https://github.com/Damantha126/The-Anki-Vector",
    "addons": [
@@ -59,7 +59,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "ankivectorUpdates"
+         "value": "DARK_SKULL_SUPPORTGROUP"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
