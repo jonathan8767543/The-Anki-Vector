@@ -65,22 +65,22 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = f"""
 *Hellow There, I'm Dark Skull 🍑
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @impossiblefriendsgroup
+I'm a Powerfull group manager bot With Cool Modules. Made My @DarkSkull_SupportGroup
 hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/impossiblefriendschannel"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/impossiblefriendsgroup"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/DarkSkull_SupportGroup"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/DarkSkull_SupportChannel"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="Ipossible Friends", url="https://t.me/impossiblefriendsgroup"),
         InlineKeyboardButton(text="❔ Help", callback_data="helpmenu_"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Ziyana Bot To Youre Group ➕", url="t.me/ThE_DaRkSkUlLBoT?startgroup=true"
+            text="➕ Add Dark Skull Bot To Youre Group ➕", url="t.me/ThE_DaRkSkUlLBoT?startgroup=true"
         ),
     ],
 ]
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/DA_RK_SKULL)"""
+Support them  [𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟](t.me/DA_RK_SKULL)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -366,8 +366,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Ziyana Support.* "
-            f"\n\n Join [ZiyanaSupport](https://t.me/impossiblefriendsgroup) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Dark.* "
+            f"\n\n Join [DarkSkullSupport](https://t.me/DarkSkull_SupportGroup) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -400,7 +400,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/impossiblefriendsgroup).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Dark Skull Support](https://t.me/DarkSkull_SupportGroup).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -419,7 +419,7 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Ziyana Asisstant](https://t.me/ZIYANA_ASSISTANT)."
+            f"\n\nBased on [Dark Skull Asisstant](https://t.me/DA_RK_SKULL)."
             f"\n\n{dispatcher.bot.first_name}'s source code was clone by Dark Skull"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
@@ -477,12 +477,12 @@ def AnkiVector_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Dark Skull team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of DARK_S_KULL_BOT we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
