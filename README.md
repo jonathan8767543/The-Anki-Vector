@@ -17,7 +17,7 @@ Complete guide on deploying @TheAnkiVectorbot's clone on Heroku.
 ☆ Video by [Damantha Jasinghe](https://www.youtube.com/watch?v=fXXEcAkWAFU) ☆
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
 
-## New version Avaiilable on Telegram as [The-Anki-Vector-Bot](https://t.me/TheAnkiVectorbot)
+## New version Avaiilable on Telegram as [Dark-Skull-Bot](https://t.me/DARK_S_KULL_BOT)
 ## The-Anki-Vector-Bot is the latest
 
 
@@ -28,7 +28,7 @@ This repo was just revamped to suit an Anime-centric community. All original cre
 
 All other credits mentioned on top of scripts
 
-Should any be missing kindly let us know at [The Anki Vector bot](https://t.me/ankivectorUpdates) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Dakr Skull](https://t.me/DarkSkull_SupportGroup) or simply submit a pull request on the readme.
 
 ## The Anki Vector bot the telegram Bot Project
 The Advanced Branch (For PRO's)
@@ -54,7 +54,7 @@ The Anki Vector bot(advanced)
 
 ## Devs
 
-- [Dark Skull](https://github.com/DarkSkull93/DarkSkull93) - Clone | Dark
+- [Damantha](https://github.com/Damantha126) - Owner | Dew
 - [Sadew Jayasekara](https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
