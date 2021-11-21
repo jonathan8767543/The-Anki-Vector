@@ -54,7 +54,7 @@ The Anki Vector bot(advanced)
 
 ## Devs
 
-- [Dark Skull](https://github.com/DarkSkull93/DarkSkull93) - Owner | Dev
+- [Dark Skull](https://github.com/DarkSkull93/DarkSkull93) - Clone | Dark
 - [Sadew Jayasekara](https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
